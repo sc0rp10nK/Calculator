@@ -164,6 +164,7 @@ public class MainActivity extends AppCompatActivity {
                 // その他ボタンの場合の処理
                 case R.id.btClear:
                     Text.setText("");
+                    sumText.setText("");
                     _numList.clear();
                     _opeList.clear();
                     _inputValue= "";
